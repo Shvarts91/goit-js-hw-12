@@ -73,8 +73,6 @@
 
 .loader.is-active {
   display: inline-block;
-  /* height: 40px; */
-  /* margin-top: 32px; */
 }
 .loader::after {
   content: '';
@@ -104,7 +102,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  /* margin-top: 32px; */
   margin-bottom: 32px;
 }
 
