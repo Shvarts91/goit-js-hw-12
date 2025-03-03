@@ -22,6 +22,7 @@ form.addEventListener('submit', async evt => {
   if (!input.value.trim()) return;
 
   clearListImages();
+  page = 1;
   fetchAndRenderImages(input.value, true);
 });
 
